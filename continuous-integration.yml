@@ -1,0 +1,4 @@
+- name: Run tests
+  env:
+    ACCESS_TOKEN: ${{secrets.ACCESS_TOKEN}}
+  run: npm test
